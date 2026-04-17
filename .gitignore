@@ -1,0 +1,26 @@
+# Rojo build output
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Rojo generated files
+.rojo-cache/
+
+# Roblox Studio lock files
+*.rbxlx.lock
+
+# Node modules (if using npm tooling)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Wally packages
+Packages/
+ServerPackages/

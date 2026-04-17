@@ -1,0 +1,69 @@
+{
+  "name": "tornado-Tag",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "RoundManager": {
+        "$path": "src/ServerScriptService/RoundManager.server.lua"
+      },
+      "TornadoController": {
+        "$path": "src/ServerScriptService/TornadoController.server.lua"
+      },
+      "ShopHandler": {
+        "$path": "src/ServerScriptService/ShopHandler.server.lua"
+      },
+      "LeaderboardService": {
+        "$path": "src/ServerScriptService/LeaderboardService.server.lua"
+      },
+      "DailyRewards": {
+        "$path": "src/ServerScriptService/DailyRewards.server.lua"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "LaserGun": {
+        "$path": "src/ServerStorage/LaserGun"
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GameConfig": {
+        "$path": "src/ReplicatedStorage/GameConfig.lua"
+      },
+      "DataManager": {
+        "$path": "src/ReplicatedStorage/DataManager.lua"
+      },
+      "Remotes": {
+        "$path": "src/ReplicatedStorage/Remotes.lua"
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "MainHUD": {
+        "$path": "src/StarterGui/MainHUD.client.lua"
+      },
+      "ShopGui": {
+        "$path": "src/StarterGui/ShopGui.client.lua"
+      },
+      "DifficultySelectGui": {
+        "$path": "src/StarterGui/DifficultySelectGui.client.lua"
+      },
+      "LeaderboardGui": {
+        "$path": "src/StarterGui/LeaderboardGui.client.lua"
+      },
+      "ResultsScreen": {
+        "$path": "src/StarterGui/ResultsScreen.client.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "InputHandler": {
+          "$path": "src/StarterPlayerScripts/InputHandler.client.lua"
+        }
+      }
+    }
+  }
+}
